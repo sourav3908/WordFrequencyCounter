@@ -2,7 +2,9 @@
 This is a simple React app that fetches the content of a text file from a given URL, counts the frequency of each word in the text, and displays the top 20 most frequent words in the form of a histogram and a table. The app also allows you to export the data as a CSV file.
 
 **Deployment Link**
-[Netlify](https://csb-kpg8x3.netlify.app/)
+[Netlify](https://csb-kpg8x3.netlify.app/) ,
+[Github](https://sourav3908.github.io/csb-kpg8x3/) ,
+[Versel](https://csb-kpg8x3-1stk2ak9j-sourav3908.vercel.app/)
 
 ## Components
 The app consists of the following components:
