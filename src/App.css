@@ -1,0 +1,81 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.fetch-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.chart-svg {
+  margin-top: 50px;
+}
+
+.export-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  align-content: center;
+}
+
+.data-table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.bar {
+  fill: #007bff;
+}
+
+.x-axis path,
+.y-axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.x-axis .tick line,
+.y-axis .tick line {
+  stroke: #ddd;
+  stroke-width: 2px;
+}
+
+.x-axis .tick text {
+  font-size: 16px;
+}
+
+.y-axis .tick text {
+  font-size: 16px;
+}
